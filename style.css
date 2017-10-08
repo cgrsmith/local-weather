@@ -2,10 +2,10 @@
   font-family: 'Montserrat', sans-serif; }
 
 body {
-  background-color: #EEE; }
+  background-color: #222; }
 
 p, h1 {
-  color: #333;
+  color: #EEE;
   text-transform: capitalize;
   text-align: center; }
 
@@ -13,7 +13,10 @@ h1 {
   margin-top: 1%;
   margin-bottom: 4%;
   font-weight: 900;
-  font-size: 3em; }
+  font-size: 3.5em; }
+
+p {
+  font-size: 1.5em; }
 
 img, .circleLoader {
   display: block;
@@ -21,8 +24,8 @@ img, .circleLoader {
   margin-right: auto; }
 
 .circleLoader {
-  border: 6px solid #EEE;
-  border-top: 6px solid #333;
+  border: 6px solid #222;
+  border-top: 6px solid #EEE;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -34,9 +37,14 @@ img, .circleLoader {
   100% {
     transform: rotate(360deg); } }
 
+#switchUnit {
+  cursor: pointer;
+  color: #1CFF34; }
+
 #weatherStationLogo {
   margin-top: 8%;
-  width: 100px; }
+  width: 80px;
+  fill: #EEE; }
 
 .stormy {
   background-color: #505050; }
