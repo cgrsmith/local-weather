@@ -1,0 +1,63 @@
+$clear-night: #333;
+$clear-day:skyblue;
+$overcast: #D8E3E7;
+$stormy: #505050;
+$fontcolor-dark: #333;
+$fontcolor-light: #EEE;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: $fontcolor-light;
+}
+
+p, h1{
+    color: $fontcolor-dark;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-weight: 900;
+    font-size: 3em;
+}
+img, .circleLoader  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circleLoader {
+    border: 6px solid $fontcolor-light;
+    border-top: 6px solid $clear-night;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    @keyframes spin {
+        0% {transform: rotate(0deg)};
+        100% {transform: rotate(360deg)};
+    }
+}
+
+#weatherStationLogo {
+    margin-top: 8%;
+    width: 100px;
+    
+}
+
+.stormy {
+    background-color: $stormy;
+}
+.clear-day {
+    background-color: $clear-day ;
+}
+.clear-night {
+    background-color: $clear-night;
+}
+.overcast {
+    background-color: $overcast;
+}
