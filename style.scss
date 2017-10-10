@@ -29,13 +29,13 @@ p {
     font-size: 1.5em;
 }
 
-img, .circleLoader  {
+img, #circleLoader   {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.circleLoader {
+#circleLoader {
     border: 6px solid $fontcolor-dark;
     border-top: 6px solid $fontcolor-light;
     border-radius: 50%;
@@ -57,17 +57,4 @@ img, .circleLoader  {
     margin-top: 8%;
     width: 80px;
     fill: $fontcolor-light;
-}
-
-.stormy {
-    background-color: $stormy;
-}
-.clear-day {
-    background-color: $clear-day ;
-}
-.clear-night {
-    background-color: $clear-night;
-}
-.overcast {
-    background-color: $overcast;
 }

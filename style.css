@@ -18,12 +18,12 @@ h1 {
 p {
   font-size: 1.5em; }
 
-img, .circleLoader {
+img, #circleLoader {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-.circleLoader {
+#circleLoader {
   border: 6px solid #222;
   border-top: 6px solid #EEE;
   border-radius: 50%;
@@ -45,15 +45,3 @@ img, .circleLoader {
   margin-top: 8%;
   width: 80px;
   fill: #EEE; }
-
-.stormy {
-  background-color: #505050; }
-
-.clear-day {
-  background-color: skyblue; }
-
-.clear-night {
-  background-color: #333; }
-
-.overcast {
-  background-color: #D8E3E7; }
